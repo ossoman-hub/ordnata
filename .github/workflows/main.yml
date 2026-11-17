@@ -25,8 +25,8 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          # Wir verwenden Node 20, wie es oft für Electron-Projekte empfohlen wird
-          node-version: 20
+          # Aktualisiert auf Node 22 (LTS) statt Node 20
+          node-version: 22
           
       # Abhängigkeiten installieren (sorgt dafür, dass electron-builder vorhanden ist)
       - name: Install dependencies
